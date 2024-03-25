@@ -7,14 +7,16 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "generate-types": "strapi ts:generate-types --debug"
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "5.0.0-beta.0",
-    "@strapi/plugin-users-permissions": "5.0.0-beta.0",
-    "@strapi/plugin-i18n": "5.0.0-beta.0",
     "@strapi/plugin-cloud": "5.0.0-beta.0",
+    "@strapi/plugin-i18n": "5.0.0-beta.0",
+    "@strapi/plugin-users-permissions": "5.0.0-beta.0",
+    "@strapi/strapi": "5.0.0-beta.0",
+    "@strapi/typescript-utils": "5.0.0-beta.0",
     "better-sqlite3": "8.6.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
